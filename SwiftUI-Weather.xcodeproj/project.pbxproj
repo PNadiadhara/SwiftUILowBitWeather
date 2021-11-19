@@ -11,6 +11,7 @@
 		BF78CF862746F24100237F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF852746F24100237F81 /* ContentView.swift */; };
 		BF78CF882746F24300237F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78CF872746F24300237F81 /* Assets.xcassets */; };
 		BF78CF8B2746F24300237F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78CF8A2746F24300237F81 /* Preview Assets.xcassets */; };
+		BF78CF922747331000237F81 /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF912747331000237F81 /* WeatherDayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BF78CF852746F24100237F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF78CF872746F24300237F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF78CF8A2746F24300237F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF78CF912747331000237F81 /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BF78CF832746F24100237F81 /* SwiftUI_WeatherApp.swift */,
 				BF78CF852746F24100237F81 /* ContentView.swift */,
+				BF78CF932747334600237F81 /* View */,
 				BF78CF872746F24300237F81 /* Assets.xcassets */,
 				BF78CF892746F24300237F81 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				BF78CF8A2746F24300237F81 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF78CF932747334600237F81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF78CF912747331000237F81 /* WeatherDayView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				BF78CF862746F24100237F81 /* ContentView.swift in Sources */,
 				BF78CF842746F24100237F81 /* SwiftUI_WeatherApp.swift in Sources */,
+				BF78CF922747331000237F81 /* WeatherDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

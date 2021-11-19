@@ -32,6 +32,22 @@ struct ContentView: View {
                 
                 Spacer()
                 
+                HStack(spacing: 40) {
+                    WeatherDayView(dayOfWeek: "Tue", imageName: "cloud.sun.fill", temperature: 74)
+                    
+                    WeatherDayView(dayOfWeek: "Wed", imageName: "sun.max.fill", temperature: 80)
+                    
+                    WeatherDayView(dayOfWeek: "Thu", imageName: "wind.snow", temperature: 43)
+                    
+                    WeatherDayView(dayOfWeek: "Fri", imageName: "sunset.fill", temperature: 60)
+                    
+                    WeatherDayView(dayOfWeek: "Sat", imageName: "snow", temperature: 31)
+                    
+                    
+                }
+                
+                Spacer()
+                
             }
         }
     }
@@ -42,3 +58,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
