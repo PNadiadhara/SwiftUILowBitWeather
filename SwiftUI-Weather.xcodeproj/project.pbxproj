@@ -14,6 +14,8 @@
 		BF78CF922747331000237F81 /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF912747331000237F81 /* WeatherDayView.swift */; };
 		BF78CF952747409700237F81 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF942747409700237F81 /* BackgroundGradientView.swift */; };
 		BF78CF9727484A3100237F81 /* UserLocationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF9627484A3100237F81 /* UserLocationTextView.swift */; };
+		BF78CF9927484CC800237F81 /* MainWeatherStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF9827484CC800237F81 /* MainWeatherStatusView.swift */; };
+		BF78CF9B274850AC00237F81 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF9A274850AC00237F81 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		BF78CF912747331000237F81 /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
 		BF78CF942747409700237F81 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 		BF78CF9627484A3100237F81 /* UserLocationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationTextView.swift; sourceTree = "<group>"; };
+		BF78CF9827484CC800237F81 /* MainWeatherStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherStatusView.swift; sourceTree = "<group>"; };
+		BF78CF9A274850AC00237F81 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				BF78CF912747331000237F81 /* WeatherDayView.swift */,
 				BF78CF942747409700237F81 /* BackgroundGradientView.swift */,
 				BF78CF9627484A3100237F81 /* UserLocationTextView.swift */,
+				BF78CF9827484CC800237F81 /* MainWeatherStatusView.swift */,
+				BF78CF9A274850AC00237F81 /* WeatherButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF78CF952747409700237F81 /* BackgroundGradientView.swift in Sources */,
+				BF78CF9B274850AC00237F81 /* WeatherButton.swift in Sources */,
 				BF78CF862746F24100237F81 /* ContentView.swift in Sources */,
+				BF78CF9927484CC800237F81 /* MainWeatherStatusView.swift in Sources */,
 				BF78CF842746F24100237F81 /* SwiftUI_WeatherApp.swift in Sources */,
 				BF78CF9727484A3100237F81 /* UserLocationTextView.swift in Sources */,
 				BF78CF922747331000237F81 /* WeatherDayView.swift in Sources */,

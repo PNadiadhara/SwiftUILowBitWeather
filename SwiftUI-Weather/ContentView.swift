@@ -15,17 +15,7 @@ struct ContentView: View {
             VStack{
                 UserLocationTextView(cityName: "Hold Placer")
                 
-                VStack(spacing: 10)  {
-                    Image(systemName: "cloud.sun.fill").renderingMode(.original)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 180, height: 180)
-                    
-                    Text("76")
-                        .font(.system(size: 70, weight: .medium))
-                        .foregroundColor(.white)
-                }
-                .padding(.bottom, 80)
+                MainWeatherStatusView(imageName: "cloud.sun.fill", temperature: 76)
                 
                 
                 
@@ -48,11 +38,7 @@ struct ContentView: View {
                 Button {
                     print("button Tapped")
                 } label: {
-                    Text("Change Time of Day")
-                        .frame(width: 280, height: 50)
-                        .background(Color.white)
-                        .font(.system(size: 20, weight: .bold, design: .default))
-                        .cornerRadius(15)
+                    WeatherButton(title: "Change TOD", textColor: .blue, backgroundColor: .white)
                 }
                 
                 Spacer()
@@ -67,6 +53,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
 
 
 
