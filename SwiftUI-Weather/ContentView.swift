@@ -10,14 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            LinearGradient(colors: [.blue, .white],
-                           startPoint: .topLeading,
-                           endPoint: .bottomTrailing).edgesIgnoringSafeArea(.all)
+            BackgroundGradientView(topColor: .blue, bottomColor: Color("LightBlue"))
             
             VStack{
-                Text("Location Of You").font(.system(size: 32,weight: .medium, design: .default))
-                    .foregroundColor(.white)
-                    .padding()
+                UserLocationTextView(cityName: "Hold Placer")
                 
                 VStack(spacing: 10)  {
                     Image(systemName: "cloud.sun.fill").renderingMode(.original)
@@ -29,8 +25,9 @@ struct ContentView: View {
                         .font(.system(size: 70, weight: .medium))
                         .foregroundColor(.white)
                 }
+                .padding(.bottom, 80)
                 
-                Spacer()
+                
                 
                 HStack(spacing: 40) {
                     WeatherDayView(dayOfWeek: "Tue", imageName: "cloud.sun.fill", temperature: 74)
@@ -48,6 +45,18 @@ struct ContentView: View {
                 
                 Spacer()
                 
+                Button {
+                    print("button Tapped")
+                } label: {
+                    Text("Change Time of Day")
+                        .frame(width: 280, height: 50)
+                        .background(Color.white)
+                        .font(.system(size: 20, weight: .bold, design: .default))
+                        .cornerRadius(15)
+                }
+                
+                Spacer()
+                
             }
         }
     }
@@ -58,5 +67,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
 
 
