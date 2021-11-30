@@ -16,6 +16,8 @@
 		BF78CF9727484A3100237F81 /* UserLocationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF9627484A3100237F81 /* UserLocationTextView.swift */; };
 		BF78CF9927484CC800237F81 /* MainWeatherStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF9827484CC800237F81 /* MainWeatherStatusView.swift */; };
 		BF78CF9B274850AC00237F81 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78CF9A274850AC00237F81 /* WeatherButton.swift */; };
+		BFD71B552756D32600EDD4ED /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD71B542756D32600EDD4ED /* API.swift */; };
+		BFD71B572756D39700EDD4ED /* API+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD71B562756D39700EDD4ED /* API+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BF78CF9627484A3100237F81 /* UserLocationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationTextView.swift; sourceTree = "<group>"; };
 		BF78CF9827484CC800237F81 /* MainWeatherStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherStatusView.swift; sourceTree = "<group>"; };
 		BF78CF9A274850AC00237F81 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		BFD71B542756D32600EDD4ED /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BFD71B562756D39700EDD4ED /* API+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,10 @@
 		BF78CF822746F24100237F81 /* SwiftUI-Weather */ = {
 			isa = PBXGroup;
 			children = (
+				BFD71B532756D2FC00EDD4ED /* LottieAnimations */,
+				BFD71B522756D2EF00EDD4ED /* ViewModels */,
+				BFD71B512756D2D900EDD4ED /* Models */,
+				BFD71B502756D2BF00EDD4ED /* Networking */,
 				BF78CF832746F24100237F81 /* SwiftUI_WeatherApp.swift */,
 				BF78CF852746F24100237F81 /* ContentView.swift */,
 				BF78CF932747334600237F81 /* View */,
@@ -88,6 +96,36 @@
 				BF78CF9A274850AC00237F81 /* WeatherButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BFD71B502756D2BF00EDD4ED /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BFD71B542756D32600EDD4ED /* API.swift */,
+				BFD71B562756D39700EDD4ED /* API+Extentions.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BFD71B512756D2D900EDD4ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFD71B522756D2EF00EDD4ED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFD71B532756D2FC00EDD4ED /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +201,11 @@
 				BF78CF952747409700237F81 /* BackgroundGradientView.swift in Sources */,
 				BF78CF9B274850AC00237F81 /* WeatherButton.swift in Sources */,
 				BF78CF862746F24100237F81 /* ContentView.swift in Sources */,
+				BFD71B572756D39700EDD4ED /* API+Extentions.swift in Sources */,
 				BF78CF9927484CC800237F81 /* MainWeatherStatusView.swift in Sources */,
 				BF78CF842746F24100237F81 /* SwiftUI_WeatherApp.swift in Sources */,
 				BF78CF9727484A3100237F81 /* UserLocationTextView.swift in Sources */,
+				BFD71B552756D32600EDD4ED /* API.swift in Sources */,
 				BF78CF922747331000237F81 /* WeatherDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
